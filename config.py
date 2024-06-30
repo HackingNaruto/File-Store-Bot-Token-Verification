@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "23862583"))
 API_HASH = os.environ.get("API_HASH", "cdb6288563a205ce92ec35bd2a7fd31e")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001562317304"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "1562317304"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1994781564"))
@@ -34,7 +34,7 @@ IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/ChatBoxOfficialBot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1676008024"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "1676008024"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
